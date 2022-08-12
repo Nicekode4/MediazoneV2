@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+html {
+  background-color: #3A3A3C;
+  color: #efefef;
+  font-family: Lato;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10vh;
+}
+
+.headerLogo {
+  margin-left: 26vw;
+  height: 16vh;
+}
+
+#notificationBell {
+  font-size: 250%;
+  margin-left: 15vw;
+  color: #ffffff;
+  border-color: #707070;
+}
+
+.sectionBtn {
+  width: 100%;
+  height: auto;
+  margin-top: 5vh;
+}
+
+.btnOne {
+  font-size: 250%;
+  background-color: white;
+  color: #efefef;
+  text-decoration: none;
+  font-family: Lato;
+  margin-left: 25vw;
+  padding: 3vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  border-radius: 10vh;
+}
+
+.btnTwo {
+  font-size: 250%;
+  background-color: white;
+  color: #efefef;
+  text-decoration: none;
+  font-family: Lato;
+  margin-left: 25vw;
+  padding: 3vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  border-radius: 10vh;
+}
+
+.fredagsbarTitle {
+  text-align: center;
+  color: #efefef;
+  font-size: 40px;
+  padding-bottom: 1vh;
+}
+
+.fredagsbarText {
+  text-align: center;
+  color: #efefef;
+  font-size: 31px;
+  padding-top: 1vh;
+  font-style: italic;
+}
+
+.fredagbarSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fredagbarSection p {
+  margin: 0;
+  padding: 0;
+  font-size: 31px;
+}
+
+#fa-ellipsis {
+  margin-top: 3vh;
+  font-size: 31px;
+  margin-left: 45vw;
+}
+
+.mainSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 31px;
+  margin-top: 0;
+}
+
+.mainSection .socialArtOne {
+  margin-right: 3vw;
+}
+
+.dividerDiv {
+  background-color: #DE2627;
+  height: 0.5vh;
+}
+
+.tilmeldSection {
+  margin-top: 3vh;
+}
+
+.tilmeldSection a {
+  text-decoration: none;
+  color: #efefef;
+  text-align: center;
+}
+
+.tilmeldSection a p {
+  background-color: #273C92;
+  font-size: 40px;
+  border-radius: 2vh;
+  width: 60%;
+  padding: 1vh;
+  margin-left: 17vw;
+}
+
+.all {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 10vw;
+}
+
+hr.roundedOne {
+  height: 0.1vh;
+  width: 60%;
+  background-color: #ddd;
+  margin-top: 0;
+  margin-bottom: 5vh;
+}
+
+hr.roundedTwo {
+  height: 0.1vh;
+  background-color: #ddd;
+}
+
+.gridImg {
+  background-color: white;
+  border-radius: 3vw;
+  padding: 1vw;
+}
+
+.underholding_titel {
+  color: gainsboro;
+  text-align: center;
+  font-size: 20px;
+}
+
+.single-player {
+  color: gainsboro;
+  text-align: left;
+  font-size: 10px;
+  font-weight: 100;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.single-player figcaption {
+  color: gainsboro;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.multi-player {
+  color: gainsboro;
+  text-align: left;
+  font-size: 10px;
+  margin-top: 5vh;
+}
+
+.multi-player figcaption {
+  color: gainsboro;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-gap: 11vw;
+}
+
+.grid-item {
+  width: auto;
+  height: auto;
+  margin-top: 3vh;
+}
+
+.socialeAkt h1 {
+  margin: 0;
+}
+
+.socialeAkt h2 {
+  margin: 0;
+}
+
+.socialeAkt p {
+  margin: 0;
+}
+
+#menuCard {
+  background: #484242;
+  width: 90%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border-radius: 2vw;
+}
+
+#menuCard div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#menuCard div h2 {
+  color: #efefef;
+  text-align: center;
+  background-color: #2e3d7f;
+  padding: 5vw;
+  border-radius: 2vw;
+  min-width: 70%;
+  margin: 3vw;
+}
